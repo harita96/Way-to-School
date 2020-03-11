@@ -1,0 +1,145 @@
+body{
+	background-image:url(school.jpeg);
+	background-attachment:fixed;	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #021D29;
+}
+
+li {
+    float: left;
+	margin: 0px 50px 0px 0px;
+	font-size:24px; 
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #242152;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#C5C4CB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #ECD8EF}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.color{
+	background-color: #333;	
+}
+
+.button {
+    background-color: #0E0A2E;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+
+.picture{
+	height:200px;
+	width:350px;
+}
+
+.text{
+   
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	margin-bottom:90px;
+	color:#021B22;
+	font-family:abel;
+	font-weight:bold;
+}
+
+h3{
+	color: #4A0416;
+}
+h2{
+	color:#093E14;
+}
+
+h1{
+	font-family:bitter;
+	text-align:center;
+	color:#3C0B4E;
+	font-size:40pt;
+
+}
+p{
+	color:white;
+	font-size:18pt;
+}
+h4{
+	text-align:center;
+	color:#07314B;
+	font-size:24pt;
+	
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #BFB0B0;
+}
+
+input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #BFB0B0;
+}
+
+input[type=submit]:hover {
+    background-color:#3A457A;
+}
+
+input[type=reset]:hover {
+    background-color:#3A457A;
+}
+
+.active{
+	background-color:#242152;
+}
